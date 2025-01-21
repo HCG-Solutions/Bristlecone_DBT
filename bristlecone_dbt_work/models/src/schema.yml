@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: src_hosts
+    columns:
+      - name: host_id
+        tests:
+          - unique
+          - not_null
+
+      - name: host_name
+      - name: is_superhost
+      - name: created_at
+      - name: updated_at
+
